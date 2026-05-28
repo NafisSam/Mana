@@ -19,9 +19,8 @@ retriever = vectorstore.as_retriever(
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 def chat(message, history):
-    translation = llm.invoke(f"Translate to English, return ONLY translation: {message}")
-    english = translation.content
-    docs = retriever.invoke(english)
+    # Combine translation and answering in ONE API call
+    docs = retriever.invoke(message)
     context = "\n\n".join([doc.page_content for doc in docs])
     prompt = get_prompt(context, message)
     response = llm.invoke(prompt)
