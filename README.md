@@ -138,11 +138,11 @@ No code changes ever needed. ✅
 
 ## 🗺️ Roadmap
 
-- [ ] 🫁 GOLD (COPD), GINA (Asthma), ESC Cardiac guidelines
-- [ ] 👤 Patient health profile with consent-based data collection
-- [ ] 👨‍⚕️ Doctor-facing clinical mode
-- [ ] 📱 Telegram bot
-- [ ] 📲 Mobile app
+- GOLD (COPD), GINA (Asthma), ESC Cardiac guidelines
+- 👤 Patient health profile with consent-based data collection
+- 👨‍⚕️ Doctor-facing clinical mode
+- 📱 Telegram bot
+- 📲 Mobile app
 
 ---
 
